@@ -1,0 +1,213 @@
+/* background images */
+.hero-section{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),
+    url("../images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 97vh; 
+    background-attachment:fixed;
+}
+/* https://areknawo.com/async-javascript-basics-revise/ */
+.hero-section2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),
+    url("../images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: auto; 
+    background-attachment:fixed;
+}
+.hero-section3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),
+    url("../images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+   height:100vh;
+}
+.hero-section4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),
+    url("../images/background2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+   height:100vh;
+   margin-top: -70px;
+}
+/* https://www.the-scientist.com/notebook/time-in-nature-is-good-for-you-66484 */
+.hero-section5{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),
+    url("../images/background3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+   height:100vh;
+   margin-top: -70px;
+}
+/* https://www.visitflanders.com/en/discover-flanders/discover-nature-flanders */
+.hero-section6{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),
+    url("../images/background5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+   height:100vh;
+   margin-top: -70px;
+}
+/* https://www.facultyfocus.com/articles/teaching-and-learning/encountering-nature-outdoor-walks-to-reduce-stress-and-increase-focus-in-students/ */
+.hero-section7{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),
+    url("../images/background4.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+   height:100vh;
+}
+/* https://dragonagile.com/implementation/ */
+/* font for the sections */
+.hero-text{
+    font-family:cursive;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 1em;
+    position: fixed;
+}
+.hero-text2{
+    font-family:cursive;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 1em;
+}
+.hero-text3{
+    font-family:cursive;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: .9em;
+ 
+}
+.hero-text h1,.hero-text2 h1{
+    font-size:50px
+}
+.hero-text button:hover{
+    background: #ffffff;
+    color: black;
+}
+.word{
+    display: flex;
+    color: black;
+    margin-top: 70px;
+    font-size: 1.5em;
+    justify-content: left;
+    text-align: center;
+}
+.word2{
+    display: flex;
+    color: white;
+    margin-top: 70px;
+    font-size: 1.5em;
+    margin-left: 700px;
+    margin-top: 200px;
+   
+}
+.wordblack{
+    display: flex;
+    color: black;
+    font-size: 1.2em;
+    justify-content: left;
+    text-align: center;
+}
+.word3{
+    display: flex;
+    color: white;
+    margin-top: 70px;
+    font-size: 1.5em;
+    justify-content: left;
+    text-align: center;
+    padding-top: 110px;
+    text-decoration: underline;
+}
+/* background colors and graphics */
+.background{
+    background-color: rgba(255, 255, 255, 0.40);
+    backdrop-filter: blur(4px);
+}
+.background2{
+    background-color: rgba(255, 255, 255, 0.40);
+    backdrop-filter: blur(4px);
+    box-shadow: 0px 5px 10px 0px rgba(94, 94, 94, 0.3);
+    margin: 10px 10px;
+    padding: 10px;
+    width:100%;
+    border-radius: 9px;
+}
+.background3{
+    background-color: rgba(255, 255, 255, 0.40);
+    backdrop-filter: blur(4px);
+    box-shadow: 0px 5px 10px 0px rgba(94, 94, 94, 0.3);
+    width:100%;
+    border-radius: 9px;
+}
+.background4{
+    background-color: rgba(255, 255, 255, 0.40);
+    backdrop-filter: blur(4px);
+    box-shadow: 0px 5px 10px 0px rgba(94, 94, 94, 0.3);
+    margin: 15px 15px;
+    padding: 10px;
+    width:100%;
+    border-radius: 9px;
+    display: flex;
+}
+/* image circle framing */
+.circle{
+    display: flex;
+    border-radius: 50%;
+    width:40%;
+    transform: translate(79%);
+}
+.circle2{
+    display: flex;
+    border-radius: 50%;
+    width:15%;
+    transform: translate(285%);
+}
+/* image positioning left and right */
+.photosleft{
+    display: flex;
+    width:60%;
+}
+.photosright{
+    display: flex;
+    width:60%;
+    transform: translate(70%);
+}
+.photos3{
+    display: flex;
+}
+.photo2 img{
+    width: 49%;
+    height: auto;
+}
+.photosright2{
+    display: flex;
+    width:50%;
+    transform: translate(70%);
+}
+/* single middle text */
+.single{
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}

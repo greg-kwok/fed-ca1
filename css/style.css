@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navigation bar */
+.navbartop{
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    background-color:rgb(118, 128, 148);
+    height: 20px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+}
+.navbartop2{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:rgb(118, 128, 148);
+    height: 20px;
+    position: fixed;
+    top: 0px;
+    width: 10%;
+    z-index: 10;
+    transform: translate(450%);
+    padding-top: 2px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(87, 95, 110);
+    height: 50px;
+    position: fixed;
+    top: 20px;
+    width: 100%;
+    z-index: 10;
+}
+.navbarmid{
+    display: flex;
+    justify-content: left;
+    height: 70px;
+    position: fixed;
+    width: 5%;
+    z-index: 10;
+    top: 0;
+}
+.navbar ul,.navbartop ul,.navbartop2 ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar li{
+    float: left;
+    padding: 15px 90px;
+}
+.navbartop2 li{
+    padding: 15px;
+}
+.navbar ul li a{
+    color: white;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+.navbartop ul li a,.navbartop2 ul li a{
+    display: flex;
+    height:1.3em ;
+    width: auto;
+    margin-right: 1em;
+    text-decoration: none;
+    color: white;
+    
+   
+}
+/*navigation bar hover*/
+.navbar ul li a:hover,.navbar ul li a.active,.navbartop2 ul li a:hover{
+    border-radius: 4px;
+    color:black;
+    background-color: white;
+    
+    
+}
+.navbar ul li:hover{
+    transform: scale(1.05);
+}
+.zoom:hover{
+    transform: scale(1.05);
+}
+/*navigation bar images*/
+.navbarmid .logo{
+    display: flex;
+    width: auto;
+    height: 70px;
+    justify-content:center;
+   
+}
+/* remove underline */
+.noline{
+    text-decoration: none;
+    color: black;
+}
+/* for slide making */
+.side{
+    list-style-type: none;
+    display: flex;
+    padding-left: 200px;
+    padding-top: 40px;
+    padding-right: 100px;
+}
+.powerpoint li{
+    padding: 15px;
+}
+.powerpoint ul li a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+.powerpoint ul li ul li {
+    list-style-type: none;
+}
+.resize{
+    height: auto;
+    width: 390px;
+}
+.white{
+    color: white;
+}
+/* heading 4 */
+h4{
+    font-family: cursive;
+    font-size: 1em;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.footer2{
+    margin-top: -50px;
+}
